@@ -1,0 +1,202 @@
+/* Global styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 50%;
+  background-color: white; 
+}
+/* Logo Section */
+.site-header {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    padding: 20px;
+    background-color: white; /* Optional background for contrast */
+    border-bottom: 1px solid #ddd; /* Optional separator */
+  }
+  
+  .logo {
+    height: 40pax; /* Adjust the height as needed */
+    width: auto; /* Maintain the aspect ratio */
+  }
+  
+/* Header styles */
+.header {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center elements vertically */
+    align-items: center; /* Center elements horizontally */
+    text-align: center;
+  
+    background-image: url('aaa.jpg'); /* Update with your image path */
+    background-size: cover; /* Cover the full area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    color: white; /* Text color */
+    box-sizing: border-box; /* Include padding and border in dimensions */
+    height: 25vh; /* Set height to half of the viewport */
+    padding: 500px; /* Add padding for spacing */
+  }
+  
+.header-content {
+  background-color: rgba(0, 0, 0, 0.5); /* Adds a dark overlay */
+  padding: 30px 50px;
+  border-radius: 20px; /* Rounded edges for the overlay */
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.header h2 {
+  font-size: 1.5rem;
+  margin: 10px 0 20px;
+}
+
+.register-btn {
+  background-color: #ff4081;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+  background-color: #e8366e;
+}
+
+/* Courses Section */
+.courses-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: white; /* Set the background to white */
+  border-top: 5px solid #fbb562; /* Optional separator for better design */
+}
+
+.courses-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #333; /* Ensure readability */
+}
+
+.view-more-btn {
+  background-color: #ff4081;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-more-btn:hover {
+  background-color: #e8366e;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.course-card {
+  background: white; /* Matches the section background */
+  border-radius: 10px; /* Slightly rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center;
+  padding: 20px;
+}
+
+.course-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+.course-card h3 {
+  font-size: 1.2rem;
+  margin: 15px 0;
+  color: #333; /* Darker text for better visibility */
+}
+
+.course-card p {
+  color: #777; /* Lighter text for pricing */
+  font-size: 1rem;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #fbb562; /* Match the orange background */
+    padding: 40px 20px; /* Reduce padding to make the section smaller */
+    text-align: center;
+    border-radius: 50px; /* Rounded edges for the entire section */
+    max-width: 900px; /* Set a maximum width for the yellow container */
+    margin: 0 auto; /* Center the section horizontally */
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333; /* Dark text color for the heading */
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white; /* White background for the form */
+    padding: 30px;
+    border-radius: 30px; /* Rounded edges for the form container */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .contact-form label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Text color for labels */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc; /* Adds a light border */
+    border-radius: 20px; /* Rounded input fields */
+    font-size: 1rem;
+    background-color: #fff7e6; /* Soft off-white background for fields */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Inner shadow for depth */
+  }
+  
+  .contact-form textarea {
+    height: 100px; /* Set height for textarea */
+  }
+  
+  .contact-form button {
+    background-color: #b13e64; /* Match the purple-pink button color */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px; /* Rounded button */
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #932d4d; /* Slightly darker shade for hover effect */
+  }
+  
